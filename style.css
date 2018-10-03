@@ -1,0 +1,41 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  background : url('images/blue.jpg')
+
+}
+
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+  
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="textarea"]
+textarea
+  {
+  padding: 10px;
+  margin: 0 0 20px;
+	border : solid 1px #454545;
+	display: block;
+	width: 50%;
+	font-size: 14px;
+	color: #777;
+	font-family: Monaco, monospace;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0 auto;
+    width: 100%;
+    background-color: #212F3D;
+    color: white;
+    text-align: center;
+}
